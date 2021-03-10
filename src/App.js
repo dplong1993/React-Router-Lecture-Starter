@@ -1,4 +1,8 @@
-import { Movies, MovieDetails, Stocks, Home } from './components';
+// import { Movies, MovieDetails, Stocks, Home } from './components';
+
+import Home from './components/Home';
+import Movies from './components/Movies';
+import Stocks from './components/Stocks';
 
 function App() {
   return (
@@ -7,7 +11,6 @@ function App() {
       <Home />
       <Stocks />
       <Movies />
-      <MovieDetails />
     </div>
   );
 }
